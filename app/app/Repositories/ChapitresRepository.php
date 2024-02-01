@@ -3,7 +3,7 @@ namespace App\Repositories ;
 use App\Models\Chapitre;
 use App\Repositories\BaseRepository;
 
-class TasksRepository extends BaseRepository
+class ChapitresRepository extends BaseRepository
 {
     
     public function __construct(Chapitre $chapitre){
