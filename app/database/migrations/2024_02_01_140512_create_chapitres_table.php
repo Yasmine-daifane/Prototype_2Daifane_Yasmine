@@ -14,6 +14,12 @@ return new class extends Migration
         Schema::create('chapitres', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('titre');
+            $table->integer('ordre');
+            $table->text('description');
+            
+            // Foreign key for one-to-many relationship with autoformations
+            $table->foreignId('autoformation_id')->constrained('autoformations')->onDelete('cascade');
         });
     }
 

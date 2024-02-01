@@ -51,9 +51,11 @@ public function run(): void
 
 
 
-#### Running Seeders
+#### Model
 ```bash
-php artisan db:seed
+
+php artisan make:model Autoformation 
+ php artisan make:model Chapitre
 
 ```
 
