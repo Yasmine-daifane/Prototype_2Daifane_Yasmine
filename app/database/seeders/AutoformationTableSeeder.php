@@ -22,7 +22,7 @@ class AutoformationTableSeeder extends Seeder
                 'Titre' => 'Laravel',
                 'Date_de_creation' => now(),
                 'Date_modification' => now(),
-                'reference' => 'DW01',
+                'reference' => 'DW',
                 'description' => 'Description for Autoformation 1',
                
             ],
@@ -30,7 +30,7 @@ class AutoformationTableSeeder extends Seeder
                 'Titre' => 'Laravel2',
                 'Date_de_creation' => now(),
                 'Date_modification' => now(),
-                'reference' => 'DW02',
+                'reference' => 'DM',
                 'description' => 'Description for Autoformation 1',
              
             ],
@@ -38,7 +38,7 @@ class AutoformationTableSeeder extends Seeder
                 'Titre' => 'Laravel3',
                 'Date_de_creation' => now(),
                 'Date_modification' => now(),
-                'reference' => 'DW03',
+                'reference' => 'Dn',
                 'description' => 'Description for Autoformation 1',
                
             ]
