@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('chapitres', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('titre');
+            $table->string('Titre');
             $table->integer('ordre');
             $table->text('description');
             
